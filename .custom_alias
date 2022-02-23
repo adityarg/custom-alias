@@ -1,0 +1,14 @@
+# docker-compose
+alias dcb='docker-compose build'
+alias dcu='docker-compose up -d'
+alias dcd='docker-compose down'
+alias dclg='docker-compose logs -f'
+
+# docker
+alias dli='docker images'
+alias dlc='docker ps -a'
+alias dex='function _dex() { docker exec -it "$1" /bin/bash; };_dex'
+
+# environments
+alias env3='source /home/mounika/env_3/bin/activate'
+alias jd_env='source /home/aditya/jd_env/bin/activate'
