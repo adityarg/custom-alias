@@ -10,7 +10,7 @@ alias dlc='docker ps -a'
 alias dex='function _dex() { docker exec -it "$1" /bin/bash; };_dex'
 
 # environments
-alias messi='source /home/aditya/messi/bin/activate'
+enter() {source /Users/adityaraghuwanshi/$1/bin/activate}
 
 # git
 alias ga='git add'
